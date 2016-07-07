@@ -21,7 +21,7 @@ Unfortunately, a server (or two servers) will still be required for two reasons,
 
 # Project Structure
 
-![alt img](https://drive.google.com/open?id=0B30YKPKfT6QobUZ6Wm1EMl9WbGs)<br>
+![alt img](https://drive.google.com/file/d/0B30YKPKfT6QobUZ6Wm1EMl9WbGs/view?usp=sharing)<br>
 
 # Support
 
