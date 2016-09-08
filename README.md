@@ -5,7 +5,6 @@ Dual monitor system based on WebRTC(Web Real-Time Communication)
 # Table of Contents
 
 - [What is WebRTC?](#what-is-webrtc?)
-- [Support](#support)
 - [Prerequisites](#prerequisites)
 - [Reference](#reference)
 - [License](#license)
@@ -18,16 +17,6 @@ Currently the webRTC standard is very focused on the video & audio aspects of th
 
 Unfortunately, a server (or two servers) will still be required for two reasons, The media for the page must be initially supplied, and the server, in conjunction with a [STUN server](http://en.wikipedia.org/wiki/STUN), is required to synchronize the connections.
 
-# Support
-
-### Device
-* HOST : Windows 7 64-bit
-* GUEST : ANY DEVICE
-
-### Browser
-* Chrome 25.0+ (28.0+ for best performance)
-* Firefox 22.0+
-
 # Prerequisite
 
 ### Technologies
@@ -37,12 +26,11 @@ Unfortunately, a server (or two servers) will still be required for two reasons,
 $ sudo apt-get update
 $ sudo apt-get install build-essential libssl-dev
 $ curl https://raw.githubusercontent.com/creationix/nvm/v0.18.0/install.sh | bash
-$ nvm install 4.2.1
-$ nvm use 4.2.1
+$ nvm install 4.4.7
+$ nvm use 4.4.7
 ```
 
 * *Chrome Extensions*
-
 
 # Reference
 * [WebRTC 1.0: Real-time Communication Between Browsers](http://www.w3.org/TR/2015/WD-webrtc-20150210/)
