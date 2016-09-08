@@ -1,0 +1,28 @@
+{
+  "name": "desktopCapture",
+  "author": "dualRTC.io",
+  "version" : "3.0",
+  "manifest_version" : 2,
+  "minimum_chrome_version": "34",
+  "description": "Getting source id of screen, individual windows or tabs.",
+  "homepage_url": "https://DualRTC-io.github.io/",
+  "background": {
+    "scripts": ["background-script.js"],
+    "persistent": false
+  },
+  "content_scripts": [ {
+    "js": [ "content-script.js" ],
+    "all_frames": true,
+    "run_at": "document_start",
+    "matches": ["<all_urls>"]
+  }],
+  "icons" : {
+    "48" : "icon.png"
+  },
+  "permissions": [
+    "desktopCapture"
+  ],
+  "web_accessible_resources": [
+    "icon.png"
+  ]
+}
