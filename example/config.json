@@ -1,8 +1,0 @@
-{
-  "port": 8000,
-  "securePort": 8080,
-  "secured": false,
-  "mongoose": {
-    "uri": "mongodb://localhost:27017/pollDev"
-  }
-}

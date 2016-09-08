@@ -61,4 +61,4 @@ dist
 .idea
 bower_components
 
-example/
+example
